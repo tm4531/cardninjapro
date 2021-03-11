@@ -1,0 +1,1104 @@
+/*
+------------------
+Project:        Casine - Casino and gambling HTML5 Template
+Version:        1.0
+Last change:    11/ 05 /2020
+Primary use:    Casino and gambling. 
+Author:         Ingenious_team
+------------------ */
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+    .heading h2 {
+        letter-spacing: 0;
+    }
+    .error-txt h4 {
+    font-size: 110px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .side_search {
+        width: 220px !important;
+    }
+
+    .full_nav .nav > li > a {
+        font-size: 16px;
+        padding: 9px 4px 10px;
+    }
+
+    .full_nav .nav > li:last-child {
+        top: 11px;
+    }
+
+    .title {
+        font-size: 87px;
+        line-height: 90px;
+        width: auto;
+    }
+
+    .conter-res {
+        margin-top: -50px;
+    }
+
+    .banner_text h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .counter-left h4 {
+        font-size: 36px;
+        padding-top: 16px;
+    }
+
+    .counterinner ul li {
+        width: 55px;
+        margin: 0 4px;
+        padding: 14px;
+    }
+
+    .counter-text h3 {
+        font-size: 36px;
+    }
+
+    .conter-res {
+        padding: 35px 10px 30px;
+    }
+
+    .control-img {
+        height: auto;
+        padding: 27px 15px;
+    }
+
+    .control-inner .col-lg-3 {
+        padding: 0 5px;
+    }
+
+    .start-text h3 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .start-text p {
+        font-size: 14px;
+    }
+
+    .casino-btn a {
+        padding: 13px 21px;
+    }
+
+    .port-text-btm {
+        top: 158px;
+    }
+
+    .sub-heading h3 {
+        font-size: 21px;
+    }
+
+    .winner-name h5 {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .contact-about p,
+    .winner-name p {
+        font-size: 14px;
+    }
+
+    .jackpots {
+        padding-bottom: 20px;
+    }
+
+    .run-txt {
+        top: 60%;
+    }
+
+    .run-txt h4 {
+        padding-bottom: 10px;
+    }
+
+    .run-txt p {
+        padding-bottom: 12px;
+    }
+
+    .faq-inner p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .faq-inner h3 {
+        font-size: 18px;
+    }
+
+    .faq-pad::after,
+    .faq-pad::before {
+        width: 720px;
+    }
+
+    .heading h3,
+    .heading h2 {
+        font-size: 28px;
+        letter-spacing: 0;
+    }
+
+    .contact-app li a i {
+        width: 77px;
+        height: 77px;
+        line-height: 77px;
+    }
+
+    .payments ul li {
+        padding-right: 3px;
+    }
+
+    .payments ul li img {
+        width: 55px;
+    }
+
+    .foot-menu ul li a {
+        font-size: 16px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 34px !important;
+    }
+
+    .error {
+        height: 82vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 85%;
+    left: 69%;
+    width: 400px;
+
+}
+
+    .location-txt {
+        padding-right: 60px;
+    }
+
+    .tour-jack {
+        margin-bottom: -60px;
+    }
+
+    .coundown span {
+        font-size: 70px;
+    }
+
+    .contact-us .heading h2 {
+        font-size: 28px;
+    }
+    .subscribe input {
+    height: 49px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title:before {
+        left: 22px;
+        top: -7px;
+    }
+
+    .in-project {
+        padding-bottom: 0;
+        margin-bottom: -20px;
+    }
+
+    .spin-text {
+        padding-top: 0px;
+    }
+
+    .side_search {
+        display: none;
+    }
+
+    .error {
+        height: 82vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 86%;
+    left: 71%;
+    width: 400px;
+font-size: 28px;
+}
+
+    .full_nav .nav > li > a {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+
+    .full_nav .nav > li:last-child {
+        right: 210px;
+        top: 17px;
+        height: 38px;
+        width: 38px;
+        padding: 7px 10px;
+    }
+
+    .full_nav .nav {
+        margin-top: 10px;
+        width: 595px;
+        margin-left: -5px !important;
+    }
+
+    .full_nav .nav > li {
+        margin: 0 4px;
+    }
+
+    .full_nav .nav > li:last-child .fa-times {
+        top: 7px;
+        font-size: 22px;
+    }
+
+    .nav-sign li:first-child {
+        margin-right: 5px;
+    }
+
+    .nav-sign li a {
+        font-size: 18px;
+        padding: 9px 9px;
+        width: 100px;
+    }
+
+    .title {
+        font-size: 57px;
+        line-height: 60px;
+        width: auto;
+    }
+
+    .banner_text h3 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .counter-left h4 {
+        font-size: 26px;
+        padding-top: 9px;
+    }
+
+    .counterinner ul li {
+        width: 39px;
+        margin: 0 4px;
+        padding: 7px;
+    }
+
+    .counter-text h3 {
+        font-size: 30px;
+    }
+
+    .conter-res {
+        margin-top: -40px;
+        padding: 28px 10px;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .control [class^="flaticon-"]:before,
+    .control [class*=" flaticon-"]:before,
+    .control [class^="flaticon-"]:after,
+    .control [class*=" flaticon-"]:after {
+        font-size: 52px !important;
+    }
+
+    .cont-bot {
+        margin-bottom: 30px;
+    }
+
+    .start-text {
+        padding-left: 0px;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+
+    .start-text h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .control-inner .col-md-9 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-img .nav-menu {
+    font-size: 16px;
+}
+
+    
+    .casino-btn a {
+        font-size: 17px;
+        padding: 13px 18px;
+    }
+.port_img .casino-btn a {
+        padding: 13px 12px;
+        font-size: 18px;
+    }
+    .port-text-btm {
+        top: 106px;
+    }
+
+    .port-text-btm h3 {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    .jack-bor {
+        width: 100%;
+    }
+
+    .sub-heading h3 {
+        font-size: 22px;
+    }
+
+    .run-txt h4 {
+        padding-bottom: 10px;
+    }
+
+    .run-txt p {
+        padding-bottom: 20px;
+    }
+
+    .running-img .casino-btn a {
+        font-size: 20px;
+        padding: 12px 24px;
+    }
+
+    .winner-name h5 {
+        font-size: 14px;
+    }
+
+    .toun_scroll_flag {
+        padding-left: 3px;
+    }
+
+    .coundown {
+        margin: 0 10px;
+
+    }
+
+    .coundown p {
+        font-size: 32px !important;
+    }
+
+    .counter-jack {
+        text-align: center;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+
+    .faq-inner p {
+        width: auto;
+    }
+
+    .faq-inner h3 {
+        font-size: 18px;
+    }
+
+    .f-padding {
+        padding-left: 0;
+    }
+
+    .faq-border {
+        left: 51%;
+    }
+
+    .faq-form {
+        margin-top: 60px;
+    }
+
+    .contact-us .heading h3,
+    .contact-us .heading h2 {
+        font-size: 20px;
+    }
+
+    .contact-app li a i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .contact-app li {
+        font-size: 16px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        font-size: 30px !important;
+    }
+
+    .payments ul li {
+        padding-bottom: 30px;
+    }
+
+    .contact-us .heading h3 {
+        padding-top: 5px;
+    }
+
+    .subscribe .border-effect2,
+    .subscribe .border-effect1 {
+        top: 45px;
+    }
+
+    .subscribe .heading:before,
+    .subscribe .heading:after {
+        width: 250px;
+    }
+
+    .subscribe .border-effect2 {
+        width: 140px;
+        left: 177px;
+    }
+
+    .subscribe .heading:before {
+        top: 61px;
+    }
+
+    .subscribe .border-effect1 {
+        width: 127px;
+        left: 9px;
+    }
+
+    .sub-form .col-sm-12 {
+        padding-left: 0;
+    }
+
+    .foot-menu ul li a {
+        font-size: 15px;
+    }
+
+    .copy-right h6 {
+        font-size: 14px;
+    }
+
+    .youtube_video {
+        left: 44%;
+    }
+
+    .youtube_video a i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 22px;
+        padding: 0 29px;
+    }
+
+    .foot-menu ul {
+        padding-bottom: 18px;
+    }
+
+    .header_area {
+        height: 86px;
+    }
+
+    .how-start {
+        padding-bottom: 60px;
+    }
+
+    .location-txt {
+        padding-right: 0px;
+    }
+    .about-video img {
+    width: 100%;
+}
+    .about-page .heading img{
+        width: 100%;
+    }
+    .about-page .heading{
+        padding-top: 60px;
+    }
+.header-nav .navbar-brand {
+    margin-right: 7px;
+}
+    .start-text,
+    .start-img{
+        text-align: center;
+    display: inline-block;
+    }
+    .dropdown-menu > li {
+    padding: 2px 10px;
+}
+    .dropdown-menu > li > a {
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .in-project {
+        padding-bottom: 0;
+    }
+
+    .side_search {
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 3px!important;
+    }
+
+    .dropdown-menu {
+        padding: 0px 5px;
+        top: 0;
+        -webkit-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hidden-main {
+        display: none;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .faq-inner p {
+        width: auto;
+    }
+
+    .main_page {
+        background: #150035;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 60px;
+        width: auto;
+    }
+
+    .banner-center {
+        top: 50%;
+        left: 0%;
+        width: auto;
+    }
+
+    .banner_text h3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .control-img {
+        height: 100px;
+        padding: 23px 14px;
+    }
+
+    .counterinner ul li {
+        width: 30px;
+        margin: 0 1px;
+        padding: 7px;
+    }
+
+    .counter-text h3 {
+        font-size: 20px;
+    }
+
+    .counter-left h4 {
+        font-size: 26px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .counterinner ul {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .control-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .conter-res {
+        margin-top: -40px;
+        padding: 20px 10px;
+    }
+
+    .cont-bot {
+        margin-bottom: 30px;
+    }
+
+    .control [class^="flaticon-"]:before,
+    .control [class*=" flaticon-"]:before,
+    .control [class^="flaticon-"]:after,
+    .control [class*=" flaticon-"]:after {
+        font-size: 55px !important;
+    }
+
+    .start-text h3 {
+        margin-bottom: 3px;
+        padding-top: 6px;
+    }
+
+    .control-inner {
+        padding-bottom: 30px;
+    }
+
+    .how-start {
+        padding-bottom: 50px;
+    }
+
+    .control-text h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+.control-text p {
+    line-height: 20px;
+}
+    .free-spin {
+    padding-bottom: 60px;
+}
+    .heading h3,
+    .heading h2 {
+        font-size: 28px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .start-text h3 {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+      .project-img .nav-menu {
+    font-size: 15px;
+              padding: 6px 10px;
+}
+    .pro-row{
+        padding-bottom: 30px;
+    }
+    .project-img .nav-pills {
+    text-align: center;
+        display: contents;
+}
+
+    .winner-name h5 {
+        font-size: 13px;
+    }
+
+    .toun_scroll_flag {
+        padding-left: 9px;
+    }
+
+    .sub-heading,
+    .free-spin {
+        text-align: center;
+    }
+
+    .running-img .img-fluid {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .upcom-slick,
+    .score-slick {
+        padding-bottom: 50px;
+    }
+
+    .coundown {
+        float: none;
+        margin-left: 0px;
+        padding-top: 50px;
+    }
+
+    .counter-jack {
+        text-align: center;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    .coundown p {
+        font-size: 20px !important;
+        padding-top: 5px;
+    }
+
+    .counter-jack,
+    .jackpots {
+        padding-bottom: 0;
+    }
+
+    .faq-inner h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .foot-menu{
+        padding-top: 20px;
+    }
+    .contact-about,
+    .faq-inner {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .f-padding {
+        padding-left: 0px;
+    }
+
+    .faq-pad,
+    .faq-border {
+        display: none;
+    }
+
+    .app-icon {
+        text-align: center;
+    }
+
+    .jack-bor,
+    .subscribe,
+    .payments {
+        text-align: center;
+        width: 100%;
+    }
+
+    .payments ul {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .payments ul li {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .bot-menu,
+    .sub-form .col-sm-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .sub-form {
+        width: 96%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .foot-menu ul li a {
+        font-size: 14px;
+        padding: 0 4px;
+    }
+
+    .copy-right h6 {
+        font-size: 14px;
+    }
+
+    .upcomg {
+        padding-top: 30px;
+    }
+
+    .project-img {
+        padding-bottom: 60px;        
+    }
+    .contact-page,
+    .faq,
+    .project-img,
+    .tour-jack{
+        padding-top: 40px;
+    }
+    .header_area {
+        background: none;
+        height: 58px;
+    }
+
+    .youtube_video a i {
+        top: 48%;
+        left: 50%;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        padding: 0 29px;
+    }
+
+    .youtube_video {
+        left: 41%;
+        top: 39%;
+    }
+
+    .about-video {
+        margin-bottom: 60px;
+    }
+
+    .about-page {
+        padding-bottom: 30px;
+    }
+
+    .button-group .btn-filter {
+        float: none;
+    }
+
+    .btn-filter {
+        padding: 10px 0px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    #cssmenu > ul > li > a {
+        padding: 14px;
+    }
+
+    #cssmenu ul li a {
+        font-size: 14px;
+    }
+
+    #cssmenu > ul > li:hover > a,
+    #cssmenu ul li.active a {
+        color: #fff;
+    }
+
+    .foot-menu ul {
+        padding-bottom: 18px;
+    }
+
+    .port_img .casino-btn a {
+        padding: 13px 18px;
+        font-size: 20px;
+    }
+
+    .port-text-btm {
+        top: 140px;
+    }
+
+    .tour-jack {
+        margin-bottom: -50px;
+    }
+.error {
+        height: 83vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 85%;
+    left: 69%;
+    width: 400px;
+
+}
+    .location-txt {
+        padding-right: 0px;
+    }
+
+    .contact-about .border-effect1,
+    .app-icon .border-effect1,
+    .subscribe .border-effect1,
+    .payments .border-effect1 {
+        width: 100px;
+        left: 0;
+    }
+
+    .border-effect1 {
+        width: 99px;
+        left: 80px;
+    }
+
+    .border-effect2 {
+        width: 96px;
+        right: 60px
+    }
+
+    .contact-about .border-effect2,
+    .app-icon .border-effect2,
+    .subscribe .border-effect2,
+    .payments .border-effect2 {
+        width: 95px;
+        left: 220px;
+    }
+
+    .heading:before,
+    .heading:after,
+    .subscribe .heading:before,
+    .subscribe .heading:after,
+    .contact-about .heading:before,
+    .contact-about .heading:after,
+    .payments .heading:before,
+    .payments .heading:after {
+        width: 100%;
+        left: 50%;
+    }
+
+    .title:before {
+        position: absolute;
+        content: 'Online Casino';
+        text-shadow: 21px 13px 2px #2c0b49;
+        filter: drop-shadow(0 0 40px #68248c);
+        left: 48%;
+        width: 250px;
+        top: -8px;
+        transform: translateX(-50%);
+        z-index: -99;
+    }
+
+    .control-pad {
+        display: none;
+    }
+
+    .control {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 575px) {
+    .btn-filter {
+        padding: 10px 0px;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .contact-app li a i {
+        width: 78px;
+        height: 78px;
+        line-height: 78px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 34px !important;
+    }
+
+    .title:before {
+        left: 46%;
+    }
+}
+
+@media only screen and (max-width: 380.99px) {
+
+    .winner-name p,
+    .winner-name h5 {
+        font-size: 12px !important;
+    }
+
+    .section {
+        padding-top: 60px;
+    }
+
+    .control-inner .col-8 {
+        padding-left: 0;
+    }
+
+    .control-inner {
+        padding-bottom: 5px;
+    }
+
+    .control-inner {
+        margin-bottom: 30px;
+    }
+
+    .btn-filter {
+
+        padding: 10px 0px;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .foot-menu ul li a {
+        font-size: 13px;
+        padding: 0 4px;
+    }
+
+    .copy-right h6 {
+        font-size: 13px;
+    }
+
+    .contact-app li a i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 32px !important;
+    }
+
+    #back-top-btn {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+
+    .contact-page .heading:after,
+    .heading:before,
+    .heading:after,
+    .subscribe .heading:before,
+    .subscribe .heading:after,
+    .contact-about .heading:before,
+    .contact-about .heading:after,
+    .payments .heading:before,
+    .payments .heading:after {
+        width: 260px;
+        left: 50%;
+    }
+
+    .title:before {
+        width: 250px;
+        left: 44%;
+    }
+
+    .payments ul li {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0 -1px;
+    }
+
+    .payments ul li img {
+        width: 86%;
+    }
+     .error-txt h4 {
+    font-size: 75px;
+}
+    .error-txt:before {
+        font-size: 26px;
+    top: 85%;
+    left: 65%;
+    width: 300px;
+
+}
+
+}
