@@ -323,7 +323,7 @@ p {
     color: #fefefe;
     font-weight: 400;
     font-family: "Anton";
-    padding: 13px 30px;
+    padding: 38px 53px;
     border-radius: 35px;
     text-transform: capitalize;
     -webkit-transition: all ease 0.9s;
@@ -800,10 +800,11 @@ nav.navbar .container {
 }
 /* ============================= 
        Banner Css 
+      removed --> banner-background
 ======================================= */
 
 .main_page {
-    background: url(../images/banner-background.jpg);
+    background: url(../images/backgrounddark.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
