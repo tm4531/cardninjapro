@@ -4,7 +4,7 @@
 Project:        Casine - Casino and gambling HTML5 Template
 Version:        1.0
 Last change:    11/ 05 /2020
-Primary use:    Casino and gambling. 
+Primary use:    Casino and gambling.
 Author:         Ingenious_team
 ------------------
 
@@ -44,6 +44,7 @@ Table of Content
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
 ul,
@@ -243,7 +244,7 @@ body {
 
 
 /* ============================
-            common 
+            common
 ========================= */
 
 .hidden {
@@ -323,7 +324,7 @@ p {
     color: #fefefe;
     font-weight: 400;
     font-family: "Anton";
-    padding: 38px 53px;
+    padding: 13px 30px;
     border-radius: 35px;
     text-transform: capitalize;
     -webkit-transition: all ease 0.9s;
@@ -798,13 +799,12 @@ nav.navbar .container {
 .menu-inner i.fa-align-right {
     opacity: 0;
 }
-/* ============================= 
-       Banner Css 
-      removed --> banner-background
+/* =============================
+       Banner Css
 ======================================= */
 
 .main_page {
-    background: url(../images/backgrounddark.png);
+    background: url(../images/banner-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -919,7 +919,7 @@ nav.navbar .container {
 
 
 /* =====================================
- Counter end 
+ Counter end
 ======================================= */
 
 /* ===========================================================
@@ -1350,7 +1350,7 @@ nav.navbar .container {
     End of Unlock Free spin  part css
 =======================================*/
 /*========================================
-            Casino Jackpots Start 
+            Casino Jackpots Start
 ========================================*/
 .jackpots {
     padding-bottom: 60px;
@@ -2196,7 +2196,7 @@ nav.navbar .container {
 }
 
 /* ==========================================
-          contact us page 
+          contact us page
 ===============================================*/
 .contact-page {
     padding-bottom: 60px;
@@ -2553,4 +2553,170 @@ nav.navbar .container {
         -webkit-transform: translate(-130%, 0);
         transform: translate(-130%, 0);
     }
+}
+
+
+/* =================================================
+            added css for war game -VR
+==================================================*/
+
+.container1 {
+    height: 500px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 4rem);
+    grid-template-rows: 7rem 2rem 7rem;
+    gap: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.deck {
+    height: 150px;
+    width: 100px;
+    border: 1px solid black;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: .5rem;
+    color: white;
+    user-select: none;
+}
+
+.player-deck {
+    background-color: rebeccapurple;
+}
+
+.computer-deck {
+    background-color: green;
+}
+
+.text {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-weight: bold;
+    user-select: none;
+}
+
+.card {
+    position: relative;
+    height: 150px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    user-select: none;
+}
+
+.card::before {
+    top: .5rem;
+    left: .5rem;
+}
+
+
+.card::after {
+    bottom: .5rem;
+    right: .5rem;
+    transform: rotate(180deg);
+}
+
+.card.red {
+    color: red;
+}
+
+.card.black {
+    color: black;
+}
+
+.card::before,
+.card::after {
+    position: absolute;
+    content: attr(data-value);
+    font-size: 1rem;
+
+}
+
+/* =================================================
+            added css for 21 card trick -VR
+==================================================*/
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 900px;
+  height: 500px;
+  border: 1px black solid;
+  margin: 0 auto;
+}
+
+.game-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  border: 1px black solid;
+  margin: 0 auto;
+}
+
+.row1 {
+  width: 120px;
+  height: 500px;
+  border: 1px black solid;
+  background: #369;
+  border-radius: .5rem;
+}
+
+.top-text21 {
+  justify-content: center;
+  /* border: 1px black solid; */
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: yellow;
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+
+  font-size: 30px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  z-index: 0;
+  background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 6px;
+}
+
+.deck21-slot {
+  margin: 10px;
+  background-color: indigo;
+}
+
+.restart {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  height: 50px;
+  border-radius: .5rem;
+  font-weight: bold;
 }
