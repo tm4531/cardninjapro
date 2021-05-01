@@ -3,7 +3,7 @@
 ==================================================*/
 
 .container1 {
-  height: 500px;
+  height: 400px;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 4rem);
@@ -12,6 +12,8 @@
   cursor: pointer;
   justify-content: center;
   padding-top: 1rem;
+  border: 10px gold solid;
+
 }
 
 .deck {
@@ -26,6 +28,8 @@
   border-radius: 0.5rem;
   color: white;
   user-select: none;
+  box-shadow: 0px 0px 5px 2px black;
+
 }
 
 .player-deck {
@@ -55,8 +59,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+
+  font-size: 3rem;
   user-select: none;
+  /* margin-top: -2rem; */
+  box-shadow: 2px 0px 5px 2px rgb(40,40,40);
+  /* GPU is doing the work Here for smooth animation (not cpu)*/
+  transform: translate3d(0px , 0px, 0px);
+  transition: transform .1s ease-in-out;
+  animation: fadeIn 1s;
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.card:not(:first-child){
+  margin-top: -3rem;
 }
 
 .card::before {
@@ -93,32 +112,34 @@
   flex-direction: row;
   justify-content: center;
   width: 900px;
-  height: 500px;
-  border: 1px black solid;
+
+  height: 750px;
   margin: 0 auto;
 }
 
 .game-area {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   flex-direction: row;
   justify-content: space-between;
   width: 500px;
-  border: 1px black solid;
   margin: 0 auto;
 }
 
-.row1 {
-  width: 120px;
-  height: 500px;
-  border: 1px black solid;
-  background: #369;
+.row1, .row2, .row3 {
+  width: 100px;
+  height: 760px;
+  /* border: 1px black solid; */
+  background: grey;
   border-radius: 0.5rem;
 }
+
 
 .top-text21 {
   justify-content: center;
   /* border: 1px black solid; */
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+
   font-weight: bold;
   color: yellow;
   width: 400px;
@@ -136,12 +157,15 @@
   background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-top: 6px;
+  padding-top: 1px;
+
 }
 
 .deck21-slot {
   margin: 10px;
   background-color: indigo;
+  font-size: 250%;
+
 }
 
 .restart {
@@ -151,11 +175,64 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 100%;
   margin: 4px 2px;
   cursor: pointer;
   background-color: #4caf50;
   height: 50px;
   border-radius: 0.5rem;
   font-weight: bold;
+  margin: 5px;
+  box-shadow: 0px 0px 5px 2px grey;
+  transform: translate3d(0px , 0px, 0px);
+  transition: transform .1s ease-in-out;
+}
+
+.restart:hover{
+  transform: scale(1.2);
+}
+
+.side {
+
+}
+
+.choice {
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 5px 2px orange;
+  height: 150px;
+  width: 100px;
+}
+
+.answer-text {
+  justify-content: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: orange;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 120%;
+  background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from{
+    transform: translateY(-80px);
+  }
+  to{
+    transform: translateY(0);
+  }
+
 }

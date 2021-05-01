@@ -1,23 +1,18 @@
 /*
 ------------------
-
 Project:        Casine - Casino and gambling HTML5 Template
 Version:        1.0
 Last change:    11/ 05 /2020
 Primary use:    Casino and gambling. 
 Author:         Ingenious_team
 ------------------
-
 ----------------
 Table of Content
 ----------------
-
 1.  preloader
 2.  Header Part
-
     2.1. nav part
     2.2. banner part
-
 3.  BE IN CONTROL Part
 4.  HOW TO START Part
 5.  RELATED OTHER GAMES Part
@@ -26,16 +21,13 @@ Table of Content
 8. FREQUENTLY ASK QUESTIONS part
 9. CONTACT part
 10. FOOTER part
-
 ---- other pages ----
-
 11. About us page
 12. GAMES page
 13. Tournaments page
 14. FAQ page
 15. CONTACT page
 16. 404 page
-
 */
 
 @import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");
@@ -851,12 +843,9 @@ nav.navbar .container {
 .menu-inner i.fa-align-right {
   opacity: 0;
 }
-/* ============================= 
-       Banner Css 
-      removed --> banner-background
-======================================= */
 
 .main_page {
+  
   background: url(../images/banner-background.gif);
   background-position: center;
   background-repeat: no-repeat;
@@ -1902,7 +1891,6 @@ nav.navbar .container {
   padding-top: 65px;
 }
 /*
-
 .contact-about .border-effect1 {
     position: absolute;
     top: 45px;

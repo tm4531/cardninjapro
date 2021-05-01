@@ -109,6 +109,3 @@ function isRoundWinner(cardOne, cardTwo){
 function isGameOver(deck){
     return deck.numberOfCards === 0
 }
-
-
-//computerCardSlot.appendChild(deck.cards[0].getHTML())
