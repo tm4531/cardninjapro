@@ -1,0 +1,230 @@
+/* =================================================
+            added css for war game -VR
+==================================================*/
+
+.container1 {
+  height: 400px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 4rem);
+  grid-template-rows: 7rem 2rem 7rem;
+  gap: 1rem;
+  cursor: pointer;
+  justify-content: center;
+  padding-top: 1rem;
+  border: 10px gold solid;
+}
+
+.deck {
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+  user-select: none;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+.player-deck {
+  background-color: rebeccapurple;
+}
+
+.computer-deck {
+  background-color: green;
+}
+
+.text {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-weight: bold;
+  user-select: none;
+}
+
+.card {
+  position: relative;
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  user-select: none;
+  /* margin-top: -2rem; */
+  box-shadow: 2px 0px 5px 2px rgb(40,40,40);
+  /* GPU is doing the work Here for smooth animation (not cpu)*/
+  transform: translate3d(0px , 0px, 0px);
+  transition: transform .1s ease-in-out;
+  animation: fadeIn 1s;
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.card:not(:first-child){
+  margin-top: -3rem;
+}
+
+.card::before {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.card::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transform: rotate(180deg);
+}
+
+.card.red {
+  color: red;
+}
+
+.card.black {
+  color: black;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: attr(data-value);
+  font-size: 1rem;
+}
+/* =================================================
+            added css for 21 card trick -VR
+==================================================*/
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 900px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.game-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.row1, .row2, .row3 {
+  width: 100px;
+  height: 760px;
+  /* border: 1px black solid; */
+  background: grey;
+  border-radius: 0.5rem;
+}
+
+
+.top-text21 {
+  justify-content: center;
+  /* border: 1px black solid; */
+  padding-bottom: 0px;
+  font-weight: bold;
+  color: yellow;
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+
+  font-size: 30px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  z-index: 0;
+  background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 1px;
+}
+
+.deck21-slot {
+  margin: 10px;
+  background-color: indigo;
+  font-size: 250%;
+}
+
+.restart {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4caf50;
+  height: 50px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin: 5px;
+  box-shadow: 0px 0px 5px 2px grey;
+  transform: translate3d(0px , 0px, 0px);
+  transition: transform .1s ease-in-out;
+}
+
+.restart:hover{
+  transform: scale(1.2);
+}
+
+.side {
+
+}
+
+.choice {
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 5px 2px orange;
+  height: 150px;
+  width: 100px;
+}
+
+.answer-text {
+  justify-content: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: orange;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 120%;
+  background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from{
+    transform: translateY(-80px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
