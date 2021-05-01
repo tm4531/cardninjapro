@@ -3,7 +3,7 @@
 Project:        Casine - Casino and gambling HTML5 Template
 Version:        1.0
 Last change:    11/ 05 /2020
-Primary use:    Casino and gambling.
+Primary use:    Casino and gambling. 
 Author:         Ingenious_team
 ------------------
 ----------------
@@ -241,7 +241,7 @@ body {
 /* == main css start from now == */
 
 /* ============================
-            common
+            common 
 ========================= */
 
 .hidden {
@@ -843,13 +843,10 @@ nav.navbar .container {
 .menu-inner i.fa-align-right {
   opacity: 0;
 }
-/* =============================
-       Banner Css
-      removed --> banner-background
-======================================= */
 
 .main_page {
-  background: url(../images/backgrounddark.png);
+  
+  background: url(../images/banner-background.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -963,7 +960,7 @@ nav.navbar .container {
 }
 
 /* =====================================
- Counter end
+ Counter end 
 ======================================= */
 
 /* ===========================================================
@@ -1458,7 +1455,7 @@ nav.navbar .container {
     End of Unlock Free spin  part css
 =======================================*/
 /*========================================
-            Casino Jackpots Start
+            Casino Jackpots Start 
 ========================================*/
 .jackpots {
   padding-bottom: 60px;
@@ -2311,7 +2308,7 @@ nav.navbar .container {
 }
 
 /* ==========================================
-          contact us page
+          contact us page 
 ===============================================*/
 .contact-page {
   padding-bottom: 60px;

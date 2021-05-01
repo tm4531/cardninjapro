@@ -13,6 +13,7 @@
   justify-content: center;
   padding-top: 1rem;
   border: 10px gold solid;
+
 }
 
 .deck {
@@ -28,6 +29,7 @@
   color: white;
   user-select: none;
   box-shadow: 0px 0px 5px 2px black;
+
 }
 
 .player-deck {
@@ -57,6 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   font-size: 3rem;
   user-select: none;
   /* margin-top: -2rem; */
@@ -109,6 +112,7 @@
   flex-direction: row;
   justify-content: center;
   width: 900px;
+
   height: 750px;
   margin: 0 auto;
 }
@@ -135,6 +139,7 @@
   justify-content: center;
   /* border: 1px black solid; */
   padding-bottom: 0px;
+
   font-weight: bold;
   color: yellow;
   width: 400px;
@@ -153,12 +158,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-top: 1px;
+
 }
 
 .deck21-slot {
   margin: 10px;
   background-color: indigo;
   font-size: 250%;
+
 }
 
 .restart {
@@ -227,4 +234,5 @@
   to{
     transform: translateY(0);
   }
+
 }
