@@ -18,7 +18,7 @@
 	<link href="css/animate.min.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/YouTubePopUp.css" rel="stylesheet">
-	 <link rel="stylesheet" href="css/menu.css"> 
+  <link rel="stylesheet" href="css/menu.css">  
 
 
 	<!-- / -->
@@ -29,7 +29,10 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/victor.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-
+	<style>
+		.card:not(:first-child) {
+     margin-top: 0rem!important; }
+	</style>
 
 </head>
 
@@ -146,14 +149,6 @@
 <section id="project-img" class="project-img games-page back-light section">
 		<div class="container">
 
-			<div class="row justify-content-center text-center">
-				<div class="col-lg-6">
-					<div class="heading">
-						<h2>Related other games</h2>
-						<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
-					</div>
-				</div>
-			</div>
 			 <div class="row justify-content-center text-center  pro-row">
                 <div class="col-lg-9 m-auto col-12 text-center button-group">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -169,18 +164,58 @@
                     </ul>
                 </div>
             </div>
-        <!-- Victor Made Changes HERE -->
-        <div class="container1">
 
-                <div class="computer-deck deck"></div>
-                <div class="computer-card-slot card-slot">
-                </div>
-                <div class="text"></div>
-                <div class="player-deck deck"></div>
-                <div class="player-card-slot card-slot">
-                </div>
-        </div>
+
+
+
+
+
+
+					<div class="top-text21">Blackjack</div>
+
+        <!-- Victor Made Changes HERE -->
+		<div class="container3" style="display: flex; flex-direction: row; justify-content: center; width: 900px; margin: 0 auto;">
+			
+			<div class="side">
+				<div class="deckbj-slot deck" style="background-color: indigo; text-align: center;">Play</div>
+				<button class="restart">Restart</button><br />
+				<button class="stay" style="border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 100%;
+				margin: 4px 2px;
+				cursor: pointer;
+				background-color: #4caf50;
+				height: 50px;
+				border-radius: 0.5rem;
+				font-weight: bold;
+				margin: 5px;
+				box-shadow: 0px 0px 5px 2px grey;
+				transform: translate3d(0px , 0px, 0px);
+				transition: transform .1s ease-in-out;">Stay</button>
+				<!--
+				<div class="answer-text">Your Card is:</div>
+				<div class="choice"></div>
+				-->
+			</div>
+			<div style="background-color: #15831d; padding: 15px 20px; border-radius: 5px;">
+			<div class="game-area" style="display: grid; grid-template-columns: repeat(1, 2fr); flex-direction: column; justify-content: space-between; width: 500px; margin: 0 auto;">
+				
+				<div class="text" style="position: absolute; margin: auto auto; z-index: 1; text-shadow: 2px 2px 3px #000000; visibility: hidden;"></div>
+				<div class="bj-dealer-hand" style="width: 100%; height: 155px;background-color: rgb(18, 134, 8); display: grid; grid-template-columns: repeat(10, 1fr); flex-direction: column; "></div>
+				<div class="bj-player-hand" style="width: 100%; height: 155px;background-color: rgb(18, 134, 8); display: grid; grid-template-columns: repeat(10, 1fr); flex-direction: column; "></div>
+			</div>
+			</div>
+		</div>
+
     	<!-- to Here -->
+
+
+
+
 			<div class="row justify-content-center text-center">
 				<div class="col-md-12">
 					<div class="casino-btn start-btn">
@@ -194,73 +229,169 @@
 
 	<!-- How to Start -->
 
-	<section id="feedback" class="faq back-dark section">
+	<section id="start" class="how-start back-light section">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-12 pl-md-0">
+			<div class="row justify-content-center text-center">
+				<div class="col-lg-6">
 					<div class="heading">
-						<form >
-                <h2>Feedback Form</h2>
-                
-                <div class="input-container">
-                  <i class="fa fa-envelope icon"></i>
-                  <input class="input-field" type="text" placeholder="Email" name="email">
-                </div>
-                
-                <div class="input-container">
-                  <i class="fas fa-comment icon"></i>
-                  <textarea class="input-field" name="text" placeholder="Write something.." ></textarea>
-                </div>
-                
-                <button type="submit" class="btn">Send Feedback</button>
-						</form>
+						<h2>How to Start ?</h2>
+						<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
 					</div>
 				</div>
-          <div class="col-lg-5 col-md-6 col-12 pr-md-0 offset-lg-1">
-			<div class="heading"><h2>Donate to CardNinjaPro</h2></div>
-			<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
-			<h3 style="color:#fff ;"> Help CardNinjaPro bring you an awesome gaming experience by supporting the developers</h3>
-			<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
-			<br></br>
-				<a href="#"><img src="images/payment/payment-image-1.jpg" class="img-fluid" alt="effect"></a>
-				<a href="#"><img src="images/payment/payment-image-2.jpg" class="img-fluid" alt="effect"></a>
-				<a href="#"><img src="images/payment/payment-image-3.jpg" class="img-fluid" alt="effect"></a>
-				<a href="#"><img src="images/payment/payment-image-4.jpg" class="img-fluid" alt="effect"></a>
-				<a href="#"><img src="images/payment/payment-image-5.jpg" class="img-fluid" alt="effect"></a>
-     	 </div>
-		</div>
+				<div class="row ">
+					<div class="col-md-4">
+						<div class="row control-inner">
+							<div class="col-lg-3 col-md-12 col-3">
+								<div class="start-img">
+									<i class="fa flaticon-bill"></i>
+								</div>
+							</div>
+							<div class="col-lg-9 col-md-12 col-9">
+								<div class="start-text">
+									<h3>Download & Signup</h3>
+									<p>Lorem ipsum dolor sit ametiqua. sum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row control-inner">
+							<div class="col-lg-3 col-md-12 col-3">
+								<div class="start-img">
+									<i class="fa flaticon-wallet"></i>
+								</div>
+							</div>
+							<div class="col-lg-9 col-md-12 col-9">
+								<div class="start-text">
+									<h3>Deposit Cash</h3>
+									<p>Lorem ipsum dolor sit ametiqua. sum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-4">
+						<div class="row control-inner">
+							<div class="col-lg-3 col-md-12 col-3">
+								<div class="start-img">
+									<i class="fa flaticon-casino"></i>
+								</div>
+                            </div>
+							<div class="col-lg-9 col-md-12 col-9">
+								<div class="start-text">
+									<h3>Play & Enjoy</h3>
+									<p>Lorem ipsum dolor sit ametiqua. sum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
 	</section>
 	<!-- How to Start -->
+	<!-- Unlock free spin Start -->
+	<section id="free-spin" class="free-spin back-light section">
+		<div class="container">
 
+			<div class="row justify-content-center text-center">
+				<div class="col-lg-6">
+					<div class="heading">
+						<h2>Unlock free spin</h2>
+						<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 no-padding">
+					<div class="spin-img">
+						<img src="images/free-spin-image.png" alt="casino">
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="spin-text">
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis notrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+						</p><br>
+						<p>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupdatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
+
+						<div class="casino-btn">
+							<a href="#" class="btn-4 yellow-btn">play now</a></div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Unlock free spin End -->
 	<!-- Casino Contact start -->
 	<section id="contact-us" class="contact-us back-dark contact section">
 		<div class="container">
 			<div class="row">
 
 				<div class="col-lg-5 col-md-4">
-					  <div class="contact-about">
+					<div class="contact-about">
 						<div class="heading">
-							<h2>ABOUT CardNinjaPro</h2>
+							<h2>ABOUT Gambling</h2>
 							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
 						</div>
-						<p class="mb30"> CardNinjaPro is a dynamic site designed to deliver a fun:interactive game experience to our users.
-							The goal of developing CardNinjaPro was to incorperate creativity and ingenuity into every part our design. 
-							A gaming expereince that each user will enjoy. </p><br>
-					 </div>
-				 </div>
-					<div class="col-lg-5 col-md-6 col-12 pr-md-0 offset-lg-1">
-							<div class="heading"><h2>Donate to CardNinjaPro</h2></div>
-							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
-							<h3 style="color:#fff ;"> Help CardNinjaPro bring you an awesome gaming experience by supporting the developers</h3>
-							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
-							 <br></br>
-							   <a href="#"><img src="images/payment/payment-image-1.jpg" class="img-fluid" alt="effect"></a>
-							   <a href="#"><img src="images/payment/payment-image-2.jpg" class="img-fluid" alt="effect"></a>
-							   <a href="#"><img src="images/payment/payment-image-3.jpg" class="img-fluid" alt="effect"></a>
-							   <a href="#"><img src="images/payment/payment-image-4.jpg" class="img-fluid" alt="effect"></a>
-							   <a href="#"><img src="images/payment/payment-image-5.jpg" class="img-fluid" alt="effect"></a>
+						<p class="mb30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.</p>
 					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="app-icon">
+						<div class="heading">
+							<h2>Get this App</h2>
+							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
+						</div>
+						<div class="contact-app">
+							<ul>
+								<li><a href="#"><i class="fa flaticon-app"></i></a><br>ios</li>
+								<li><a href="#"><i class="fa flaticon-android-character-symbol"></i></a><br>Android</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+				<div class="row">
+				<div class="col-lg-12">
+					<div class="payments">
+						<div class="heading">
+							<h2>Payment Methods</h2>
+							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
+						</div>
+						<ul>
+                            <li><a href="#"><img src="images/payment/payment-image-1.jpg" class="img-fluid" alt="effect"></a></li>
+                            <li><a href="#"><img src="images/payment/payment-image-2.jpg" class="img-fluid" alt="effect"></a></li>
+                            <li><a href="#"><img src="images/payment/payment-image-3.jpg" class="img-fluid" alt="effect"></a></li>
+                            <li><a href="#"><img src="images/payment/payment-image-4.jpg" class="img-fluid" alt="effect"></a></li>
+                            <li><a href="#"><img src="images/payment/payment-image-5.jpg" class="img-fluid" alt="effect"></a></li>
+						</ul>
+                    </div>
+                    </div></div>
+                    <div class="row">
+                    <div class="col-lg-12">
+					<div class="subscribe">
+						<div class="heading">
+							<h3>Subscribe for offers</h3>
+							<img src="images/heading-border-effect.png" class="img-fluid" alt="effect">
+						</div>
+						<div class="sub-form">
+							<form>
+								<div class="form-group col-sm-12">
+									<input type="text" class="form-control" name="email" placeholder="Enter Your Email">
+								</div>
+								<div class="casino-btn newsletter">
+									<a href="#" class="btn-4 yellow-btn">send</a></div>
+							</form>
+                        </div></div>
+					</div></div>
 				</div>
 			</div>
 			<div class="row control-pad">
@@ -277,7 +408,7 @@
 						<ul>
 							<li><a href="about-us.html" class="">About Us</a></li>
 							<li><a href="games.html">Games</a></li>
-							<li><a href="tournaments.html" class="active">Coming Soon</a></li>
+							<li><a href="tournaments.html" class="active">Tournaments</a></li>
 							<li><a href="#">Contact</a></li>
 							<li><a href="404-page.html">404 Page</a></li>
 						</ul>
@@ -309,11 +440,9 @@
 	<script src="js/YouTubePopUp.jquery.js"></script>
 	<script src="js/jquery.event.move.js"></script>
 	<script src="js/SmoothScroll.js"></script>
-	<script src="https://kit.fontawesome.com/7b9fd9044d.js" crossorigin="anonymous"></script>
 	<!-- custom -->
 	<script src="js/custom.js"></script>
-	<script src="js/script.js" type="module"></script>
-	<script src="js/script.js"></script>
+	<script src="js/scriptblackjack.js" type="module"></script>
 	<script src="js/menu.js"></script>
 
 </body>
