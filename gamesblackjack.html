@@ -29,6 +29,10 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/victor.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<style>
+		.card:not(:first-child) {
+     margin-top: 0rem!important; }
+	</style>
 
 </head>
 
@@ -149,8 +153,7 @@
                 <div class="col-lg-9 m-auto col-12 text-center button-group">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-menu active" id="pills-all-tab" href="games.html"
-                                role="tab" aria-controls="pills-all" aria-selected="false">War Game</a>
+                            <a href="games.html" class="nav-menu" id="pills-illustrations-tab">War Game</a>
                         </li>
                         <li class="nav-item">
                             <a href="games21.html" class="nav-menu" id="pills-illustrations-tab">21 Cards Trick</a>
@@ -168,29 +171,46 @@
 
 
 
-					<div class="top-text21">Pick A Card in Your Head!!</div>
+					<div class="top-text21">Blackjack</div>
 
         <!-- Victor Made Changes HERE -->
-        <div class="container2">
-							<div class="side">
-								<div class="deck21-slot deck">Deck</div>
-								<button class="restart">Restart</button>
-								<div class="answer-text">Your Card is:</div>
-								<div class="choice"></div>
-							</div>
-							<div class="game-area">
-                <div class="row1">
+		<div class="container3" style="display: flex; flex-direction: row; justify-content: center; width: 900px; margin: 0 auto;">
+			
+			<div class="side">
+				<div class="deckbj-slot deck" style="background-color: indigo; text-align: center;">Play</div>
+				<button class="restart">Restart</button><br />
+				<button class="stay" style="border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 100%;
+				margin: 4px 2px;
+				cursor: pointer;
+				background-color: #4caf50;
+				height: 50px;
+				border-radius: 0.5rem;
+				font-weight: bold;
+				margin: 5px;
+				box-shadow: 0px 0px 5px 2px grey;
+				transform: translate3d(0px , 0px, 0px);
+				transition: transform .1s ease-in-out;">Stay</button>
+				<!--
+				<div class="answer-text">Your Card is:</div>
+				<div class="choice"></div>
+				-->
+			</div>
+			<div style="background-color: #15831d; padding: 15px 20px; border-radius: 5px;">
+			<div class="game-area" style="display: grid; grid-template-columns: repeat(1, 2fr); flex-direction: column; justify-content: space-between; width: 500px; margin: 0 auto;">
+				
+				<div class="text" style="position: absolute; margin: auto auto; z-index: 1; text-shadow: 2px 2px 3px #000000; visibility: hidden;"></div>
+				<div class="bj-dealer-hand" style="width: 100%; height: 155px;background-color: rgb(18, 134, 8); display: grid; grid-template-columns: repeat(10, 1fr); flex-direction: column; "></div>
+				<div class="bj-player-hand" style="width: 100%; height: 155px;background-color: rgb(18, 134, 8); display: grid; grid-template-columns: repeat(10, 1fr); flex-direction: column; "></div>
+			</div>
+			</div>
+		</div>
 
-                </div>
-								<div class="row2">
-
-                </div>
-                <div class="row3">
-
-                </div>
-							</div>
-
-        </div>
     	<!-- to Here -->
 
 
@@ -422,7 +442,7 @@
 	<script src="js/SmoothScroll.js"></script>
 	<!-- custom -->
 	<script src="js/custom.js"></script>
-	<script src="js/script21.js" type="module"></script>
+	<script src="js/scriptblackjack.js" type="module"></script>
 	<script src="js/menu.js"></script>
 
 </body>
