@@ -14,6 +14,7 @@ const CARD_VALUE_MAP = {
     "Q": 10,
     "K": 10,
     "A": 11,
+    "Alowered": 1
 }
 
 const computerDeckElement = document.querySelector('.bj-dealer-hand')
@@ -95,8 +96,10 @@ function recalculateDeck(totalValue, hand){
     for (let i = 0; i < hand.length; i++) {
 
         if(typeof hand[i] === 'undefined') break;
-        if(hand[i].value === 'A')
-        totalValue -= 10;
+        if(hand[i].value === 'A'){
+            totalValue -= 10;
+            hand[i].value = 'Alowered';
+        }
 
         if(totalValue <= 21) break;
 
@@ -175,7 +178,8 @@ function checkBlackjack(){
 
     if(totalPlayerValue == 21 || totalComputerValue == 21){
         
-        text.innerText = 'Blackjack! ' + totalComputerValue == 21 ? 'You Lose!' : 'You Win!';
+        if(totalPlayerValue == 21) text.innerText = 'Blackjack! You Win!';
+        else text.innerText = 'Blackjack! You Lose!';
         staying = false;
         inRound = false;
         hitmeButton.innerText = "Play";
