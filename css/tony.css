@@ -1,0 +1,175 @@
+#feedback {
+  padding: 30px 0;
+  background: #9e4efc;
+  background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+  background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+  background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+  -webkit-box-shadow: 0px 6px 0px 0px rgb(58 0 144);
+  -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+  box-shadow: 0px 6px 0px 0px rgb(58 0 144);
+  border-bottom: 6px solid #3a0090;
+}
+
+.sub h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  text-shadow: 4px 4px 0px #5813b8;
+  padding-bottom: 15px;
+}
+
+.feedback_form input::placeholder {
+  color: #3a0090;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.feedback_form {
+  position: relative;
+}
+
+.feedback_form input {
+  width: 1 00%;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #000;
+  margin-top: 10px;
+  padding-left: 15px;
+  color: #fff;
+  padding-right: 50px;
+}
+
+.feedback_form input::placeholder {
+  color: #3a0090;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.pay_button {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 40px;
+  width: 48px;
+  background: transparent;
+  border: none;
+  border-left: 1px solid #000;
+  cursor: pointer;
+}
+
+.pay_button:focus {
+  outline: 0;
+}
+
+/*heading class*/
+.pay_meth h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  text-shadow: 4px 4px 0px #5813b8;
+  padding-bottom: 15px;
+}
+
+.pay_meth a img {
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Nunito", sans-serif;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.faq input {
+  height: 50px;
+  font-size: larger;
+  font-family: "Nunito", sans-serif;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  font-size: large;
+  font-family: "Nunito", sans-serif;
+}
+
+.about-txt {
+  font-size: large;
+  font-family: "Nunito", sans-serif;
+}
+
+.project-img-about {
+  background: #9e4efc;
+  background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+  background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+  background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+  -webkit-box-shadow: 0px 6px 0px 0px rgb(58 0 144);
+  -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+  box-shadow: 0px 6px 0px 0px rgb(58 0 144);
+}
+
+.location-icon i {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 100px;
+  font-size: 30px;
+  background: linear-gradient(to bottom, #797dff 30%, #03a9f4 70%);
+  filter: drop-shadow(0 0px 20px rgba(255, 214, 121, 0.3));
+  box-shadow: 0px 0px 2px 1px #2196f3;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 60px;
+  color: #fff;
+}
