@@ -16,17 +16,14 @@ const CARD_VALUE_MAP = {
     "A": 11,
 }
 
-//const computerCardSlot = document.querySelector('.computer-card-slot')
 const computerDeckElement = document.querySelector('.bj-dealer-hand')
 const playerDeckElement = document.querySelector('.bj-player-hand')
-//const playerCardSlot = document.querySelector('.player-card-slot')
 const stay = document.querySelector('.stay')
 const restartButton = document.querySelector('.restart')
 const hitmeButton = document.querySelector('.deckbj-slot')
 const text = document.querySelector('.text')
 
 let deck;
-let playerDeck, computerDeck
 let playerHand = new Array(10)
 let computerHand = new Array(10)
 let inRound = false;
@@ -130,12 +127,8 @@ async function computerBrain(playerValue = 0){
     
             computerHand[i+1] = deck.pop();
             computerDeckElement.appendChild(computerHand[i+1].getHTML())
-            totalValue += CARD_VALUE_MAP[computerHand[i+1].value];
         }
-
     } 
-
-
 }
 
 function startGame(){
@@ -159,7 +152,8 @@ async function dealCards(){
     computerHand[0] = deck.pop()
     playerHand[1] = deck.pop()
     computerHand[1] = deck.pop()
-    //////////
+
+    // Deal two cards
     for(let i=0; i<2; i++){
         playerDeckElement.appendChild(playerHand[i].getHTML())
         await dramaticPause(1500, 550);
@@ -171,17 +165,17 @@ async function dealCards(){
 }
 
 function checkBlackjack(){
-    let totalValue = 0;
+    let totalPlayerValue = 0;
+    let totalComputerValue = 0;
 
-    for (let i = 0; i < playerHand.length; i++) {
-        totalValue += CARD_VALUE_MAP[playerHand[i].value];
-
-        if(typeof playerHand[i+1] === 'undefined') break;
+    for (let i = 0; i < 2; i++) {
+        totalPlayerValue += CARD_VALUE_MAP[playerHand[i].value];
+        totalComputerValue += CARD_VALUE_MAP[computerHand[i].value];
     } 
 
-    if(totalValue == 21){
+    if(totalPlayerValue == 21 || totalComputerValue == 21){
         
-        text.innerText = 'Blackjack!'
+        text.innerText = 'Blackjack! ' + totalComputerValue == 21 ? 'You Lose!' : 'You Win!';
         staying = false;
         inRound = false;
         hitmeButton.innerText = "Play";
@@ -202,8 +196,6 @@ function showGameOverText(){
 function cleanBeforeRound(){
     computerDeckElement.innerHTML = ''
     playerDeckElement.innerHTML= ''
-    //text.innerText = ''
-    //updateDeckCount()
 }
 function dramaticPause(ms, range=0) {
     if(range != 0){
